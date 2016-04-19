@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .header{
+                border-bottom: 1px dashed #999;
+                display: inline;
+                background-color:#f2f2f2;
+                color:#0099cc;
+
+            }
+            .body{
+                width:700px;
+                background-color:#f2f2f2;
+            }
+
+            .BasicInfo{
+                border-bottom: 1px dashed #999;
+                display: inline;
+                background-color:#f2f2f2;
+            }
+            .details{
+                border-bottom: 1px dashed #999;
+                display: inline;
+                background-color:yellow;
+                margin-top: 100px;
+
+            }
+            p{
+                float:left; 
+            }
+            .personalLabel{
+                background-color:#f2f2f2;
+                float:left;
+                width:340px;
+                height:200px;
+            }
+
+            .request{
+                background-color:#f2f2f2;
+                float:left;
+                width:360px;
+                height:200px;
+                margin:0 auto;
+
+
+            }
+            .wrapper{
+                width:960px;
+                margin:0 auto;
+                background: url("faux-columns.png") repeat-y;
+                overflow: hidden
+            }
+        </style>
+
+        <title>Page Title</title>
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <div class="body">
+                <div align="center"><h1 class="header" >Room Reservation</h1></div><br />
+
+                <div style="width:560px; margin:0;">
+                    <div  style=" float:left; width:300px;"><h1>Basic Information</h1>
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at <br />
+                        nibh varius odio sollicitudin blandit nec eu elit. Suspendisse ac  <br />
+                        risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros  <br />
+                        nec commodo. 
+                    </div>
+
+                    <form >
+                        <label   for=secure></label>
+                        <input style="width:257px;"  placeholder="Search" id=secure name=secure type=text>
+                    </form>
+                </div>
+
+
+
+                <div class="details">
+                    <div class="personalLabel">
+                        <h1>Personal Details</h1>
+
+                        <label for=country ></label>
+                        <input placeholder="First name" id=country name=country type=text required>
+                        <label for=country></label>
+                        <input placeholder="Last Name" id=country name=country type=text required>
+                        <label for=country></label>
+                        <input placeholder="Enter Email" id=country name=country type=text required>
+                    </div>
+
+
+                    <!--Options -> Room 1, Room 2, Room 3 (selected), Room 4-->
+                    <div class="request">
+                        <h1>Request a reservation</h1>
+
+                        <form>
+                            <label for=secure></label>
+                            <input  style="width:200px;  float:left;" type="text" name="SelectRoom" value="Select a room:" >
+                        </form>
+
+
+                        <form>
+                            <label for=secure></label>
+                            <input style="width:140px;" type="text" name="NumberRooms" value="Number of Rooms:" >
+                        </form>
+
+
+
+                        <label for=secure></label>
+                        <input style="width:150px; float:left" type="text" name="CheckIn" value="Check-In: (current date)">
+
+
+
+
+                        <form>
+                            <label for=secure></label>
+                            <input style="width:150px;" type="text" name="CheckOut" value="Check-Out:">
+                        </form>
+
+                        <button type="button">Book Now</button>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
+
