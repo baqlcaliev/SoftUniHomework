@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #nav{
+                list-style:none;
+                font-weight:bold;
+                margin-bottom:10px;
+                float:right; 
+                width:100%;
+                background:#003266;
+               
+            }
+            #nav li{
+                float:right;
+                margin-right:10px;
+                position:relative;
+            }
+            #nav a{
+                display:block;
+                padding:5px;
+                color:#f2f2f2;
+                background:#003266;
+                text-decoration:none;
+            }
+            #nav a:hover{
+                color:#fff;
+                background:#6b0c36;
+                text-decoration:underline;
+            }
+            
+            <!--Whyyyyyy-->
+            #logo{
+                float:left;
+            }
+
+            /*--- DROPDOWN ---*/
+            #nav ul{
+                background:#fff;
+                background:rgba(255,255,255,0); 
+                list-style:none;
+                position:absolute;
+                left:-9999px; 
+            }
+            #nav ul li{
+                padding-top:1px; 
+                float:none;
+            }
+            #nav ul a{
+                white-space:nowrap; 
+            }
+            #nav li:hover ul{ 
+                left:0; 
+            }
+            #nav li:hover a{ 
+                background:#6b0c36;
+                text-decoration:underline;
+            }
+            #nav li:hover ul a{ 
+                text-decoration:none;
+            }
+            #nav li:hover ul li a:hover{ 
+                background:#333;
+            }
+            li img{
+                margin-top:5px;
+                widt:20px;
+                height:20px;
+            }
+            
+            
+        </style>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <ul id="nav">
+            <li>
+                <img src="img/searchicon.png">
+                <img src="img/LoginLogo.png">
+            </li>
+            <li>
+                <a href="#">CONTACTS</a>
+            </li>
+
+            <li>
+                <a href="#">FORUM</a>
+                <ul>
+                    <li><a href="#">HTML&CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">PHP&MySQL</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">PARTNERS</a>
+
+                <ul>
+                    <li><a href="#">Sevice one</a></li>
+                    <li><a href="#">Sevice two</a></li>
+
+                    <li><a href="#">Sevice three</a></li>
+                    <li><a href="#">Sevice four</a></li>
+                </ul>
+
+            </li>
+            <li>
+                <a href="#">JOBS</a>
+                <ul>
+                    <li><a href="#">Firm1</a></li>
+
+                    <li><a href="#">Firm 2</a></li>
+                    <li><a href="#">Firm 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">TRAINING</a>
+
+                <ul>
+                    <li><a href="#">Hours</a></li>
+                    <li><a href="#">Practices</a></li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="#">SOFTUNI</a>
+
+                <ul>
+                    <li><a href="#">Inspiration</a></li>
+                    <li><a href="#">Directions</a></li>
+
+                </ul>
+            </li>
+            <li id="logo">
+                <img src="img/logo.png" >
+            </li>
+        </ul>
+    </body>
+</html>

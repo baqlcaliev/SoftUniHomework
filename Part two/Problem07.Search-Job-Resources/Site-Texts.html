@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #tablebody{
+                background-color:#e6e6e6;
+                width:750px;
+            }
+            span {
+                display: inline;
+                text-align: center;
+                vertical-align: middle;
+
+            }
+
+
+            td input{
+                padding:10px;
+
+            }
+
+            label {
+
+                display: block;
+            }
+
+            #nav{
+                background-color:#8c8c8c;
+                width:788px;
+                vertical-align: middle;
+            }
+
+            button{
+                display: block; width: 185px; height: 60px;
+                padding: 40px 0 0 0; margin: 0 auto;
+                border: 2px solid;
+                border-radius: 5px;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                
+
+
+            }
+            ul
+            {
+                list-style-type: none;
+            }
+
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #111;
+            }
+
+            .active {
+                background-color: #4CAF50;
+            }
+
+        </style>
+        <title>Page Title</title>
+    </head>
+    <body>
+
+
+
+        <table>
+
+            <tbody id="tablebody">
+                <tr>
+
+            <ul id="nav">
+                <li style="background-color:green;"><img src="03-tab01.png"><a class="active" href="#Search"><strong>Search Business</strong></a> </li> 
+                <li><img src="03-tab02.png"><a href="#Business"><strong>Business Categories</strong> </a></li>
+                <li><img src="03-tab03.png"><a href="#Recent"><strong>Recent Locations</strong></a> </li>
+                <li><img src="03-tab04.png"><a href="#Agents"><strong>Agents Located</strong></a></li>
+            </ul>
+        </tr>
+
+        <tr>
+            <td>
+                <label for=country >Business Name</label>
+                <input placeholder="enter a name" id=country name=country type=text required>
+            </td>
+
+
+            <td>
+                <label for=country >Country</label>
+                <input placeholder="search by country" id=country name=country type=text required>
+            </td>
+
+
+            <td>
+                <label for=country >City / State</label>
+                <input placeholder="search by city or state" id=country name=country type=text required>
+            </td>
+
+
+            <td>
+                <label for=country >ZIP / Postal Code</label>
+                <input placeholder=" enter a postal code" id=country name=country type=text required>
+            </td>
+
+        </tr>
+
+        <tr>
+
+
+            <td>
+                <label for=country >Employers</label>
+                <input placeholder=" 1000-5000" id=country name=country type=text required>
+            </td>
+
+
+
+            <td>
+                <label for=country >Startup Date</label>
+                <input type="date" id="date">
+            </td>
+
+
+
+            <td>
+                <label for=country >Job Opportunity</label>
+                <input placeholder="any" id=country name=country type=text required>
+            </td>
+
+            <td>
+                <button type="button"><a href="#Business">LET'S FIND YOUR JOB</a></button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

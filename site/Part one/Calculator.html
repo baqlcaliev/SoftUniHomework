@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+
+            #Food{
+                padding-top: 40px;
+                padding-right: 40px;
+                padding-bottom: 40px;
+                padding-left: 40px;
+                margin: 3px 3px 3px 3px;
+                font:bold 20px Arial, sans-serif;
+            }
+        </style>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <FORM name="Calculator">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4" width="400" style="height:100px" align="center" class="top">
+                            <input type="text" maxlength="40" size="30" name="Display" OnClick="DoEvent()">
+                        </th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="1" name="one" OnClick="AddDigit('1')" id="Food"></form></td> 
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="2" name="two" OnClick="AddDigit('2')" id="Food"></form></td> 
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="3" name="tre" OnClick="AddDigit('3')" id="Food"></form></td> 
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="+" name="plus" id="Food" class="operator"></form></td> 
+                    </tr>
+
+                    <tr>
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="4" name="four" OnClick="AddDigit('4')" id="Food"></form></td> 
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="5" name="five" OnClick="AddDigit('5')" id="Food"></form></td> 
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="6" name="six" OnClick="AddDigit('6')" id="Food"></form></td> 
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="-" name="minus" id="Food" class="operator"></form></td> 
+                    </tr>
+                    <tr>
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="7" name="seven" OnClick="AddDigit('7')" id="Food"></form></td>  
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="8" name="eight" OnClick="AddDigit('8')" id="Food"></form></td>  
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="9" name="nine" OnClick="AddDigit('9')" id="Food"></form></td> 
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="*" name="multiplication" id="Food" class="operator"></form></td> 
+                    </tr>
+                    <tr>
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="C" name="C" id="Food"></form></td> 
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="0" name="zero" id="Food"></form></td>  
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="=" name="equally" id="Food"></form></td>  
+                        <td style="height:100px" align="center"><FORM METHOD="LINK" ACTION="http://www.foodrevolutionday.com/">
+                                <INPUT TYPE="button" VALUE="/" name="divided" id="Food" class="operator"></form></td> 
+                    </tr>
+                </tbody>
+
+            </table>
+        </FORM>
+    </body>
+</html>
